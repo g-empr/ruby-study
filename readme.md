@@ -1,11 +1,11 @@
 # Ruby基礎
 [公式サイト](https://www.ruby-lang.org/ja/)やrbenvで実行環境を導入する。
-## オブジェクト
+## オブジェクトの表示
 ```Ruby
 print("Hello World!.")
 ```
 `"Hello World!.\n"`の部分が文字列オブジェクト。  
-## メソッド
+## メソッドの表示
 ```Ruby
 print("Hello World!.")
 ```
@@ -19,7 +19,7 @@ print("Hello \nWorld!.")
 ```Ruby
 print("Hello \\n!") # => Hello \n!
 ```
-##「""」と「''」
+## 「""」と「''」
 文字列オブジェクトとして認識させるために`""`と`''`のふたつが使用できる。  
 ただし、`''`を使用すると内容に含まれる特殊文字が解釈されずにそのまま出力される。
 ```Ruby
@@ -40,7 +40,7 @@ print "Hello ", "World!" # => Hello World!
 puts "Hello World!"
 ```
 その他に`p`メソッドというものもある。  
-これは文字列を括る`""`もまとめて出力表示するようになるもの。
+文字列を括る`""`もまとめて出力表示するようになる。
 ```Ruby
 p "Hello World!"
 p Hello World!
