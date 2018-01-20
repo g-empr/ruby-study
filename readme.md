@@ -45,3 +45,19 @@ puts "Hello World!"
 p "Hello World!"
 p Hello World!
 ```
+## 変数
+```Ruby
+moji = "もじ"
+name = 'なまえ'
+number = 9999
+```
+変数を使えば複雑なプログラムに修正が発生しても手間を掛けずに書き換えることができる。
+```Ruby
+x = 10
+y = 20
+z = 30
+a = (x*y + y*z +z*x)*2
+b = x * y * z
+print "表面積 = ", a
+print "体積 = ", b
+```
