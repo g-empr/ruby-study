@@ -1,5 +1,5 @@
 # Ruby基礎
-[公式サイト](https://www.ruby-lang.org/ja/)やrbenvで実行環境を導入する。
+予め[公式サイト](https://www.ruby-lang.org/ja/)やrbenvで実行環境を導入しておく。
 ## オブジェクトの表示
 ```Ruby
 print("Hello World!.")
