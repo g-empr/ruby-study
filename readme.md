@@ -6,7 +6,7 @@ print("Hello World!.")
 ```
 `"Hello World!.\n"`の部分が文字列オブジェクト。  
 ## メソッドの表示
-```Ruby
+```Ruby:test.rb
 print("Hello World!.")
 ```
 `print`の部分をメソッドと呼び、`()`内部を引数と呼ぶ。
