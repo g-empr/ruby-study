@@ -1,4 +1,4 @@
-# 目次
+# index
 1. **[Ruby基礎](#ruby基礎)**
 2. **[配列とハッシュ](ruby-1/readme.md)**
 3. **[オブジェクト・変数・定数](ruby-2/readme.md)**
