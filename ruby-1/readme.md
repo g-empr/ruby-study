@@ -30,7 +30,7 @@ fruits = ["りんご", "バナナ", "みかん"]
 fruits.size # => 3
 ```
 ## ハッシュ
-シンボルや文字列とオブジェクトをペアとし、`{}`に格納するまとまりのこと。
+シンボルや文字列などのキーとオブジェクトをペアとし、`{}`に格納するまとまりのこと。
 ```Ruby
 song = {:title => "aaaa", :artist => "bbbb", :genre => "cccc"}
 person = {"名前" => "後藤","年齢" => "25","性別" => "男"}
@@ -44,8 +44,14 @@ sym.to_s # => "symbol"
 # to_symメソッドでシンボルに変換する
 "symbol".to_sym # => :symbol
 ```
-ハッシュの表記は以下のようにも書くことができる。
+また、ハッシュの表記は以下のようにも書くことができる。
 ```Ruby
 song = {:title => "aaaa", :artist => "bbbb", :genre => "cccc"}
 song1 = {title: "aaaa", artist: "bbbb", genre: "cccc"}
+```
+ハッシュの場合、インデックスの代わりにキーを指定してオブジェクトをやりくりする。
+```Ruby
+song = {:title => "aaaa", :artist => "bbbb", :genre => "cccc"}
+print song[:title] # => aaaa
+song[:price] = "dddd"
 ```
