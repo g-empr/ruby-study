@@ -59,5 +59,5 @@ TEST = 0
 プログラム上では予め意味を持った語句が存在する。  
 例えば`do`や`if`など、これらは変数として使用するとエラーとなってしまう。  
 これらの特殊なキーワードを **予約語** と呼ぶ。  
-![字句構造 - Ruby 2.5.0 リファレンスマニュアル](https://docs.ruby-lang.org/ja/latest/doc/spec=2flexical.html)
-
+[字句構造 - Ruby 2.5.0 リファレンスマニュアル](https://docs.ruby-lang.org/ja/latest/doc/spec=2flexical.html)
+## 多重代入
