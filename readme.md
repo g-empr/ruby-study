@@ -1,13 +1,13 @@
 # 目次
 1. **[Ruby基礎](#ruby基礎)**
 2. **[配列とハッシュ](ruby-1/readme.md)**
-3. **[](#)**
-4. **[](#)**
-5. **[](#)**
-6. **[](#)**
-7. **[](#)**
-8. **[](#)**
-9. **[](#)**
+3. **[オブジェクト・変数・定数](ruby-2/readme.md)**
+4. **[](ruby-3/readme.md)**
+5. **[](ruby-4/readme.md)**
+6. **[](ruby-5/readme.md)**
+7. **[](ruby-6/readme.md)**
+8. **[](ruby-7/readme.md)**
+9. **[](ruby-8/readme.md)**
 
 # Ruby基礎
 予め[公式サイト](https://www.ruby-lang.org/ja/)やrbenvで実行環境を導入しておく。
